@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "easychat"
+version = "0.1.0"
+description = ""
+authors = ["minirov1208 <a0939897580@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+django = "^5.1.7"
+line-bot-sdk = "^3.16.2"
+beautifulsoup4 = "^4.13.3"
+requests = "^2.32.3"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
